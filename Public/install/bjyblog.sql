@@ -39,7 +39,7 @@ CREATE TABLE `bjy_article` (
 -- ----------------------------
 -- Records of bjy_article
 -- ----------------------------
-INSERT INTO `bjy_article` VALUES ('17', '测试文章标题', '白俊遥', '&lt;p&gt;测试文章内容&lt;img alt=&quot;白俊遥博客&quot; src=&quot;/Upload/image/ueditor/20150601/1433171136139793.jpg&quot; title=&quot;白俊遥博客&quot;/&gt;&lt;/p&gt;', '关键词,多个', '测试文章描述', '1', '0', '1', '1', '376', '1432649909', '28');
+INSERT INTO `bjy_article` VALUES ('17', '测试文章标题', 'LXJ', '&lt;p&gt;测试文章内容&lt;img alt=&quot;LXJ健康快乐&quot; src=&quot;/Upload/image/ueditor/20150601/1433171136139793.jpg&quot; title=&quot;LXJ健康快乐&quot;/&gt;&lt;/p&gt;', '关键词,多个', '测试文章描述', '1', '0', '1', '1', '376', '1432649909', '28');
 
 -- ----------------------------
 -- Table structure for bjy_article_pic
@@ -129,7 +129,7 @@ CREATE TABLE `bjy_comment` (
 -- ----------------------------
 -- Records of bjy_comment
 -- ----------------------------
-INSERT INTO `bjy_comment` VALUES ('19', '1', '1', '0', '17', '测试评论&lt;img src=&quot;/Public/emote/tuzki/t_0002.gif&quot; title=&quot;Love&quot; alt=&quot;白俊遥博客&quot;&gt;', '1445747059', '1', '0');
+INSERT INTO `bjy_comment` VALUES ('19', '1', '1', '0', '17', '测试评论&lt;img src=&quot;/Public/emote/tuzki/t_0002.gif&quot; title=&quot;Love&quot; alt=&quot;LXJ健康快乐&quot;&gt;', '1445747059', '1', '0');
 INSERT INTO `bjy_comment` VALUES ('21', '1', '1', '19', '17', '测试回复', '1447943018', '1', '0');
 
 -- ----------------------------
@@ -146,9 +146,9 @@ CREATE TABLE `bjy_config` (
 -- ----------------------------
 -- Records of bjy_config
 -- ----------------------------
-INSERT INTO `bjy_config` VALUES ('1', 'WEB_NAME', '白俊遥博客');
-INSERT INTO `bjy_config` VALUES ('2', 'WEB_KEYWORDS', '白俊遥,帅白,技术博客,个人博客,bjyblog');
-INSERT INTO `bjy_config` VALUES ('3', 'WEB_DESCRIPTION', '白俊遥的个人技术博客,bjyblog官方网站');
+INSERT INTO `bjy_config` VALUES ('1', 'WEB_NAME', 'LXJ健康快乐');
+INSERT INTO `bjy_config` VALUES ('2', 'WEB_KEYWORDS', 'LXJ,帅白,技术博客,个人博客,LXJ');
+INSERT INTO `bjy_config` VALUES ('3', 'WEB_DESCRIPTION', 'LXJ的个人技术博客,LXJ官方网站');
 INSERT INTO `bjy_config` VALUES ('4', 'WEB_STATUS', '1');
 INSERT INTO `bjy_config` VALUES ('5', 'ADMIN_PASSWORD', '21232f297a57a5a743894a0e4a801fc3');
 INSERT INTO `bjy_config` VALUES ('6', 'WATER_TYPE', '1');
@@ -170,7 +170,7 @@ INSERT INTO `bjy_config` VALUES ('21', 'CHANGYAN_APP_ID', 'cyrKRbJ5N');
 INSERT INTO `bjy_config` VALUES ('22', 'CHANGYAN_CONF', 'prod_c654661caf5ab6da98742d040413815b');
 INSERT INTO `bjy_config` VALUES ('23', 'WEB_STATISTICS', '');
 INSERT INTO `bjy_config` VALUES ('24', 'CHANGEYAN_RETURN_COMMENT', '');
-INSERT INTO `bjy_config` VALUES ('25', 'AUTHOR', '白俊遥');
+INSERT INTO `bjy_config` VALUES ('25', 'AUTHOR', 'LXJ');
 INSERT INTO `bjy_config` VALUES ('26', 'QQ_APP_KEY', '');
 INSERT INTO `bjy_config` VALUES ('27', 'CHANGYAN_COMMENT', '');
 INSERT INTO `bjy_config` VALUES ('28', 'BAIDU_SITE_URL', '');
@@ -186,7 +186,7 @@ INSERT INTO `bjy_config` VALUES ('37', 'SOHU_API_KEY', '');
 INSERT INTO `bjy_config` VALUES ('38', 'SOHU_SECRET', '');
 INSERT INTO `bjy_config` VALUES ('39', 'GITHUB_CLIENT_ID', '');
 INSERT INTO `bjy_config` VALUES ('40', 'GITHUB_CLIENT_SECRET', '');
-INSERT INTO `bjy_config` VALUES ('41', 'IMAGE_TITLE_ALT_WORD', '白俊遥博客');
+INSERT INTO `bjy_config` VALUES ('41', 'IMAGE_TITLE_ALT_WORD', 'LXJ健康快乐');
 INSERT INTO `bjy_config` VALUES ('42', 'EMAIL_SMTP', '');
 INSERT INTO `bjy_config` VALUES ('43', 'EMAIL_USERNAME', '');
 INSERT INTO `bjy_config` VALUES ('44', 'EMAIL_PASSWORD', '');
@@ -212,7 +212,7 @@ CREATE TABLE `bjy_link` (
 -- ----------------------------
 -- Records of bjy_link
 -- ----------------------------
-INSERT INTO `bjy_link` VALUES ('2', '白俊遥博客', 'http://baijunyao.com', '1', '1', '0');
+INSERT INTO `bjy_link` VALUES ('2', 'LXJ健康快乐', 'http://baijunyao.com', '1', '1', '0');
 
 -- ----------------------------
 -- Table structure for bjy_oauth_user
